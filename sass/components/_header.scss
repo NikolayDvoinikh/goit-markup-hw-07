@@ -5,14 +5,6 @@
 	padding-bottom: 25px;
 	/* height: 80px; */
 
-	&__logo {
-		margin-right: 93px;
-	}
-
-	&__logo--black {
-		color: #000000;
-	}
-
 	&__container {
 		display: flex;
 		align-items: center;
@@ -51,7 +43,7 @@
 	letter-spacing: 0.02em;
 }
 
-.header__contacts__icon {
+.header__contacts-icon {
 	margin-right: 10px;
 	fill: currentColor;
 }

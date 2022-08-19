@@ -34,7 +34,7 @@ ul {
 }
 
 /* скрытые заголовки */
-.visually--hidden {
+.visually-hidden {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -69,14 +69,7 @@ img {
 	display: block;
 	max-width: 100%;
 }
-.logo {
-	color: var(--accent-color);
-	text-decoration: none;
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-}
+
 .current-page {
 	position: relative;
 	color: var(--accent-color);
