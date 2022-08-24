@@ -26,11 +26,24 @@ ul {
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	/* outline: tomato solid; */
+	@media screen and (min-width: 480px) {
+		width: 480px;
+	}
+	@media screen and (min-width: 768px) {
+		width: 768px;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 1200px;
+	}
+	outline: tomato solid;
 }
 .section {
-	padding-top: 94px;
-	padding-bottom: 94px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	@media screen and (min-width: 1200px) {
+		padding-top: 94px;
+		padding-bottom: 94px;
+	}
 }
 
 /* скрытые заголовки */
@@ -68,19 +81,4 @@ ul {
 img {
 	display: block;
 	max-width: 100%;
-}
-
-.current-page {
-	position: relative;
-	color: var(--accent-color);
-}
-.current-page::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	border-radius: 2px;
-	background-color: var(--accent-color);
-	width: 100%;
-	height: 4px;
-	top: 47px;
 }
