@@ -3,13 +3,8 @@
 	text-decoration: none;
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
-	font-size: 24px;
-	line-height: 1.17;
-	letter-spacing: 0.03em;
-	@media screen and (min-width: 1200px) {
-		font-size: 26px;
-		line-height: 1.19;
-	}
+	font-size: 26px;
+	line-height: 1.19;
 }
 .footer__logo {
 	margin-bottom: 20px;
@@ -20,12 +15,7 @@
 	color: var(--second-text-color);
 }
 .header__logo {
-	@media screen and (min-width: 768px) {
-		margin-right: 88px;
-	}
-	@media screen and (min-width: 1200px) {
-		margin-right: 93px;
-	}
+	margin-right: 93px;
 }
 .header__logo--black {
 	color: #000000;
